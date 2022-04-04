@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 import json
 from flask_cors import CORS
 app = Flask(__name__)
-from interaction_script import *
+from interaction_script import get_interaction
 
 # print("Hello")
 
